@@ -1,0 +1,48 @@
+Aca estan los videos de las charlas: Building RESTful Web APIs with ASP.NET: https://endava.sharepoint.com/sites/RODDotNet/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FRODDotNet%2FShared%20Documents%2FGeneral%2FVideos%2FBuilding%20RESTful%20Web%20APIs%20with%20ASP%2ENET&newTargetListUrl=%2Fsites%2FRODDotNet%2FShared%20Documents&viewpath=%2Fsites%2FRODDotNet%2FShared%20Documents%2FForms%2FAllItems%2Easpx&noAuthRedirect=1
+
+Y aca el repo: brunotarghetta/CityInfo at internship2025:https://github.com/brunotarghetta/CityInfo/tree/internship2025
+
+Clase 1
+Git de Microsoft: https://github.com/dotnet/aspnetcore/blob/main/src/Hosting/Hosting/src/WebHostBuilder.cs
+Postman: https://www.postman.com/
+Dotnet fwk: https://dotnet.microsoft.com/en-us/download
+Visual studio: https://visualstudio.microsoft.com/es/free-developer-offers/
+Run in Code_ https://www.bing.com/search?pglt=41&q=visual+studio+code+c%23&cvid=ca2c80319aae4147a9a82fcc3600fda5&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEAyCAgJEOkHGPxV0gEIODM0M2owajGoAgiwAgE&FORM=ANSAB1&PC=U531
+Vsual studio code: https://code.visualstudio.com/
+
+
+Creo solucion en visual studio
+Uso Fwk 9
+Muestro proyecto
+Doy F5 
+Mustro Console
+https://localhost:7122/weatherforecast
+
+
+Ahora hablo del CLI
+https://learn.microsoft.com/en-us/dotnet/core/tools/
+abro un cmd y voy a la carpeta del proyecto
+
+cd C:\Users\BTarghetta\source\repos\CityInfo
+dotnet run
+http://localhost:5037/weatherforecast
+
+diferencia entre codigo interpretado (js) y compilado
+
+Muestro WeatherForecastController
+Hablo de convencion
+muestro appsettings.json
+
+Facundo.Reartes@endava.com
+Candelaria.Zamora@endava.com
+Nicolas.Barbosa@endava.com
+
+
+Classe 2
+
+    return new JsonResult(new List<object>
+    {
+        new {id=1, Name="New York"},
+        new {id=1, Name="Rosario"}
+    });
+}
